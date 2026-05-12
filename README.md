@@ -188,7 +188,6 @@ qwen3vl_sft/eval/score_results.py
 ## Environment Notes
 
 - `environment.yml` is the exported snapshot of the active `numpro` Conda environment.
-- `environment.min.yml` is the lighter `--from-history` export and may miss packages installed outside Conda history.
 - `requirements.txt` is a convenient pip-style companion, not the authoritative reproduction file.
 - `sitecustomize.py` provides compatibility shims for Torch environments missing pytree registration helpers or compiler helpers expected by downstream libraries.
 
