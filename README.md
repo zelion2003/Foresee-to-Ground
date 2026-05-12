@@ -30,7 +30,6 @@ This public release also includes:
 - a plain **Qwen3-VL SFT baseline** under `qwen3vl_sft/`
 - annotation **schemas and expected paths** under `data/`
 - **TimeLens conversion tools** under `tools/`
-- the paper source under `paper/F2G_paper/`
 
 ## Quick Start
 
@@ -124,7 +123,6 @@ This repository releases preprocessing code and data layout templates. Large ann
 The main F2G training and evaluation data, except for TimeLens, follow the public NumPro data organization:
 
 - NumPro repository: [yongliang-wu/NumPro](https://github.com/yongliang-wu/NumPro)
-- NumPro data release: [Google Drive folder](https://drive.google.com/drive/folders/13NYRDC87Uc4AqaT5FBHA7QkHV5OMl-v8?usp=sharing)
 - NumPro training instructions: [Google Drive file](https://drive.google.com/file/d/1X4VSdSpGEBeRDVGaZq6HsUjJxUj88jDc/view?usp=sharing)
 - NumPro 1 FPS training videos: [Hugging Face dataset](https://huggingface.co/datasets/Liang0223/NumPro_FT)
 
@@ -133,8 +131,6 @@ The main F2G training and evaluation data, except for TimeLens, follow the publi
 For TimeLens-100K training data and TimeLens-Bench evaluation data, use the official TimeLens release:
 
 - TimeLens repository: [TencentARC/TimeLens](https://github.com/TencentARC/TimeLens)
-- TimeLens project page: [timelens-arc-lab.github.io](https://timelens-arc-lab.github.io/)
-- TimeLens paper: [arXiv:2512.14698](https://arxiv.org/abs/2512.14698)
 - TimeLens model and data collection: [Hugging Face collection](https://huggingface.co/collections/TencentARC/timelens)
 
 ### TimeLens conversion
@@ -188,11 +184,6 @@ qwen3vl_sft/eval/run_eval.py
 qwen3vl_sft/eval/score_results.py
 ```
 
-## Checkpoints
-
-Public checkpoint release is **not included yet**.
-
-The README and scripts are already organized so that checkpoints can be added later without changing the repository structure. When weights are ready, this section can be extended into a small model zoo.
 
 ## Environment Notes
 
@@ -212,4 +203,4 @@ If this repository is useful in your research, please cite the F2G paper.
 
 ## Acknowledgements
 
-We thank the following projects: [Qwen3-VL](https://github.com/QwenLM/Qwen3-VL), [NumPro](https://github.com/yongliang-wu/NumPro).
+We thank the following projects: [Qwen3-VL](https://github.com/QwenLM/Qwen3-VL), [NumPro](https://github.com/yongliang-wu/NumPro), [TimeLens](https://github.com/TencentARC/TimeLens)
