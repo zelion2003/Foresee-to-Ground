@@ -1,0 +1,31 @@
+# Compatibility: accelerate 0.32.1 requires numpy < 2.0
+accelerate==0.32.1
+numpy==1.26.4
+
+# Hugging Face stack
+transformers==4.37.2       # Requires tokenizers < 0.19.
+tokenizers==0.15.2
+huggingface-hub==0.23.4
+peft==0.11.1
+tqdm==4.66.4
+packaging==24.2
+requests==2.32.3
+
+# Vision and video
+opencv-python==4.10.0.84
+decord==0.6.0
+av==12.2.0                 # Replacement for pyav.
+Pillow==11.0.0
+matplotlib==3.9.2
+
+# Training and optimization
+deepspeed==0.14.4          # Comment out first if the base environment needs to be bootstrapped incrementally.
+flash-attn==2.3.5          # Better aligned with Torch 2.1.x.
+xformers==0.0.23.post1     # Better aligned with Torch 2.1.x.
+bitsandbytes==0.42.0       # Check CUDA support if loading fails.
+
+# Miscellaneous utilities
+einops==0.8.0
+einops-exts==0.0.4
+qwen-vl-utils==0.0.8
+ring-flash-attn==0.1.1     # Comment out if it conflicts with flash-attn.

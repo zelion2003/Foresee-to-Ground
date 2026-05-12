@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+outputs/
+results/
+logs/
+wandb/
+swanlog/
+data/videos/*
+!data/videos/README.md
+!data/videos/anet/
+!data/videos/didemo/
+!data/videos/internvid/
+!data/videos/timelens_100k_336/
+!data/videos/timelens_bench_336/
+data/stage1/clips/*
+!data/stage1/README.md
