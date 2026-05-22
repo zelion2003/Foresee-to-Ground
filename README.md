@@ -1,7 +1,12 @@
 # Foresee-to-Ground: From Predictive Temporal Perception to Evidence-Driven Reasoning for Video Temporal Grounding
 
+<div style='display:flex; gap: 0.25rem; '>
+<a href='https://arxiv.org/abs/2605.21973'><img src='https://img.shields.io/badge/Paper-PDF-red'></a>
+</div>
+
 ## News
-- 2026-05-01: Foresee-to-Ground was accepted to ICML 2026.
+* :fire: 2026-05-01: Foresee-to-Ground was accepted to ICML 2026.
+
 
 ## Overview
 
@@ -196,7 +201,12 @@ qwen3vl_sft/eval/score_results.py
 If this repository is useful in your research, please cite the F2G paper.
 
 ```bibtex
-
+@article{f2g_2026,
+      title={Foresee-to-Ground: From Predictive Temporal Perception to Evidence-Driven Reasoning for Video Temporal Grounding}, 
+      author={Zelin Zheng and Xinyan Liu and Ruixin Li and Antoni B. Chan and Guorong Li and Qingming Huang and Laiyun Qing},
+      journal={arXiv preprint arXiv:2605.21973},
+      year={2026}
+}
 ```
 
 
