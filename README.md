@@ -1,7 +1,9 @@
 # Foresee-to-Ground: From Predictive Temporal Perception to Evidence-Driven Reasoning for Video Temporal Grounding
 
 <div style='display:flex; gap: 0.25rem; '>
-<a href='https://arxiv.org/abs/2605.21973'><img src='https://img.shields.io/badge/Paper-PDF-red'></a>
+<a href='https://proceedings.mlr.press/v306/zheng26l.html'><img src='https://img.shields.io/badge/ICML_2026-PMLR-blue' alt='ICML 2026 proceedings'></a>
+<a href='https://raw.githubusercontent.com/mlresearch/v306/main/assets/zheng26l/zheng26l.pdf'><img src='https://img.shields.io/badge/Paper-PDF-red' alt='Official paper PDF'></a>
+<a href='https://arxiv.org/abs/2605.21973'><img src='https://img.shields.io/badge/arXiv-Preprint-b31b1b' alt='arXiv preprint'></a>
 </div>
 
 ## News
@@ -198,14 +200,26 @@ qwen3vl_sft/eval/score_results.py
 
 ## Citation
 
-If this repository is useful in your research, please cite the F2G paper.
+If this repository is useful in your research, please cite the official ICML 2026 proceedings version of the F2G paper.
+
+- **Published version:** [PMLR paper page](https://proceedings.mlr.press/v306/zheng26l.html) | [Official PDF](https://raw.githubusercontent.com/mlresearch/v306/main/assets/zheng26l/zheng26l.pdf)
+- **Publication:** Proceedings of the 43rd International Conference on Machine Learning, PMLR **306**, pp. **163420–163438**, 2026.
+- **Preprint:** [arXiv:2605.21973](https://arxiv.org/abs/2605.21973)
 
 ```bibtex
-@article{f2g_2026,
-      title={Foresee-to-Ground: From Predictive Temporal Perception to Evidence-Driven Reasoning for Video Temporal Grounding}, 
-      author={Zelin Zheng and Xinyan Liu and Ruixin Li and Antoni B. Chan and Guorong Li and Qingming Huang and Laiyun Qing},
-      journal={arXiv preprint arXiv:2605.21973},
-      year={2026}
+@InProceedings{pmlr-v306-zheng26l,
+  title     = {Foresee-to-Ground: From Predictive Temporal Perception to Evidence-Driven Reasoning for Video Temporal Grounding},
+  author    = {Zheng, Zelin and Liu, Xinyan and Li, Ruixin and Chan, Antoni B. and Li, Guorong and Huang, Qingming and Qing, Laiyun},
+  booktitle = {Proceedings of the 43rd International Conference on Machine Learning},
+  pages     = {163420--163438},
+  year      = {2026},
+  editor    = {Zhang, Tong and Dudik, Miroslav and Jaggi, Martin and Agarwal, Alekh and Li, Sharon and Schuurmans, Dale and Zhu, Jerry and Berkenkamp, Felix and Dong, Hanze and Bietti, Alberto},
+  volume    = {306},
+  series    = {Proceedings of Machine Learning Research},
+  month     = {06--11 Jul},
+  publisher = {PMLR},
+  pdf       = {https://raw.githubusercontent.com/mlresearch/v306/main/assets/zheng26l/zheng26l.pdf},
+  url       = {https://proceedings.mlr.press/v306/zheng26l.html}
 }
 ```
 
